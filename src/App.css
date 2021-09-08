@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Cinzel', serif; */
+}
+.logo{
+  width: 100%;
+}
+.logo img{
+  width: 100px;
+  position: relative;
+  top: 5PX;
+}
+#logoimg1{
+  width: 170px;
+  position: relative;
+  top: -35PX;
+}
+.nav1{
+  background-color: #004E95;
+}
+
+/* Admin */
+.bgimg{
+  width: 100%;
+  height: 80vh;
+   /* background-image: linear-gradient(90deg,#004E95 50%,#013A6B 50%); */
+   background: url("https://vulms.vu.edu.pk/App_Themes/Default/Images/bg/bg-New.png");
+   background-repeat: repeat;
+   /* height: 99%; */
+ 
+
+    
+}
+.centerdiv{
+  width: 390px;
+  height: 430px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+
+  /* background-image: linear-gradient(90deg,#004E95 50%,#013A6B 50%); */
+  box-shadow: 0 1px 6px rgba(0, .0 , .0 , 0.12 ),0 1px 4px rgba(0, .0 , .0 , 0.24 );
+  background-color: #013A6B;
+  border-radius: 10px;
+}
+#profilepic{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  left: 50%;
+  top: -60px;
+  position: relative;
+  transform: translateX(-50%);
+  
+  /* left: calc( (350px - 120px) / 2) */
+}
+#assinpic{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  left: 30%;
+  top: 80px;
+  position: relative;
+  transform: translateX(-50%);
+}
+#profile{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  left: 50%;
+  top: 5px;
+  position: relative;
+  transform: translateX(-50%);
+}
+#profile2{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  left: 45%;
+  top: 5px;
+  position: relative;
+  transform: translateX(-50%);
+}
+
+.hed{
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 2em;
+  word-spacing: 10px;
+  margin-top: -40px;
+  margin-bottom: 40px;
+  text-shadow: -2px 2px 1px #0A84C6;
+}
+
+
+.singup{
+  width: calc(100% - 80px);
+  height: 40px;
+  display: block;
+  margin: auto;
+  color: white;
+  background-color: #0A84C6;
+  margin-top: 60px;
+  border-radius: 25px;
+}
+.singin{
+  width: calc(100% - 80px);
+  height: 40px;
+  display: block;
+  margin: auto;
+  color: white;
+  background-color: #0A84C6;
+  margin-top: 30px;
+  border-radius: 25px;
+}
+.error{
+  color: red;
+  border: none;
+  font-size: 15px;
+  margin-left: 10px;
+  
+}
+.dashbord{
+  background-color:#013A6B;
+  width: 100%;
+  height:115vh;
+}
+.dropdown:focus-within .dropdown-menu {
+  opacity:1;
+  transform: translate(0) scale(1);
+  visibility: visible;
+}
+
